@@ -84,7 +84,7 @@ export function useInit(deparmentService: IDeparmentContract) {
     try {
       dismiss = Notify.create({
         spinner: true,
-        type: 'info',
+        type: 'timer-info',
         message: 'Loading...',
         position: 'top-right',
         timeout: 0,
@@ -216,7 +216,7 @@ export async function useSaveRecord(
         try {
           dismiss = Notify.create({
             spinner: true,
-            type: 'info',
+            type: 'timer-info',
             message: 'Loading...',
             position: 'top-right',
             timeout: 0,
@@ -268,7 +268,7 @@ export async function useSaveRecord(
       try {
         dismiss = Notify.create({
           spinner: true,
-          type: 'info',
+          type: 'timer-info',
           message: 'Loading...',
           position: 'top-right',
           timeout: 0,
@@ -330,7 +330,7 @@ export async function useDeleteRecord(deparmentService: IDeparmentContract) {
   try {
     dismiss = Notify.create({
       spinner: true,
-      type: 'info',
+      type: 'timer-info',
       message: 'Loading...',
       position: 'top-right',
       timeout: 0,

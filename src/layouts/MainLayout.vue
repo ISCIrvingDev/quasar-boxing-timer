@@ -9,7 +9,7 @@
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
           </q-avatar>
 
-          Employee Management
+          Box Timer
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -33,7 +33,7 @@
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
           </q-avatar>
 
-          Employee Management
+          Box Timer
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>

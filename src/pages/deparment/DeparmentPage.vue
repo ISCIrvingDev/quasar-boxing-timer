@@ -238,7 +238,7 @@ const {
 const route = useRoute()
 
 // Titulo de la "Page"
-const title = computed(() => (route.meta.title as string) || 'Employee Management')
+const title = computed(() => (route.meta.title as string) || 'Box Timer')
 </script>
 
 <style lang="scss" scoped></style>

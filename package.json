@@ -1,8 +1,8 @@
 {
-  "name": "quasar-employee-management",
+  "name": "quasar-box-timer",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Employee Management",
+  "productName": "Box Timer",
   "author": "Irving Salazar <ISCIrvingDev@gmail.com>",
   "type": "module",
   "private": true,
