@@ -5,7 +5,18 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue'), meta: { title: 'Home' } },
+      { path: '', component: () => import('pages/home/HomePage.vue'), meta: { title: 'Home' } },
+      {
+        path: 'timer',
+        component: () => import('pages/timer/TimerPage.vue'),
+        meta: { title: 'Timer' },
+      },
+      {
+        path: 'current-timer-settings',
+        component: () => import('pages/current-timer-settings/CurrentTimerSettingsPage.vue'),
+        meta: { title: 'Current Timer Settings' },
+      },
+
       {
         path: 'deparment',
         component: () => import('pages/deparment/DeparmentPage.vue'),
